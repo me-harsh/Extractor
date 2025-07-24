@@ -1,0 +1,34 @@
+PDF VERIFICATION REPORT
+Date: 2025-07-24 10:44:31
+Directory: output\extracted_questions_Cyber Security_20250724_103908
+======================================================================
+
+File: question_01_multipage.pdf
+Status: valid
+Question Count: 1
+Reason: The content contains a single main question ("Q.1 Answer the following questions related to Cybersecurity Concepts") with multiple sub-questions (a, b, c, d, e) that are part of it, and there are no separate sets (e.g., "SET A", "SET B") to multiply the count.
+Text Length: 502 chars
+Action: Keep as is
+--------------------------------------------------
+File: question_02_multipage.pdf
+Status: valid
+Question Count: 1
+Reason: The content contains a single main question (Q.2) with multiple sub-questions (a, b, c, d, e) related to Cyber Threats and Defense Mechanisms, but no separate sets are identified.
+Text Length: 530 chars
+Action: Keep as is
+--------------------------------------------------
+File: question_03_multipage.pdf
+Status: valid
+Question Count: 1
+Reason: The content contains a single main question (Q.3) with sub-questions (a) to (e), but no separate sets are identified, so it is counted as one distinct main question.
+Text Length: 427 chars
+Action: Keep as is
+--------------------------------------------------
+
+SUMMARY:
+Total files processed: 3
+Valid single questions: 3
+Files split: 0
+New files created by splitting: 0
+Dirt files: 0
+Error files: 0

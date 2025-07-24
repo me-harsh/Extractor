@@ -1,0 +1,97 @@
+PDF VERIFICATION REPORT
+Date: 2025-07-24 10:41:32
+Directory: output\extracted_questions_AEL ZG513 EC-2R FIRST SEM 2022-2023_20250724_103805
+======================================================================
+
+File: question_01_multipage.pdf
+Status: valid
+Question Count: 1
+Reason: The content contains a single main question, "Q.1 Set. (A)", which includes a specific problem to be solved, indicating the presence of an actual question. There is only one question variant, as there is only one set mentioned.
+Text Length: 392 chars
+Action: Keep as is
+--------------------------------------------------
+File: question_02_multipage.pdf
+Status: valid
+Question Count: 1
+Reason: The content contains a single main question, "Q.1 Set. (B)", which includes specific details and requirements for determining the distance between co-channel cells. There are no other distinct main questions or sets present.
+Text Length: 392 chars
+Action: Keep as is
+--------------------------------------------------
+File: question_03_multipage.pdf
+Status: valid
+Question Count: 1
+Reason: The content contains a single main question, "Q.2 Set. (A) Determine the received signal power...", with specific parameters and assumptions, but no other distinct main questions or sets are present.
+Text Length: 330 chars
+Action: Keep as is
+--------------------------------------------------
+File: question_04_multipage.pdf
+Status: valid
+Question Count: 1
+Reason: The content contains a single main question, "Q.2 Set. (B)", with specific parameters and requirements, indicating a distinct and actual question.
+Text Length: 330 chars
+Action: Keep as is
+--------------------------------------------------
+File: question_05_multipage.pdf
+Status: valid
+Question Count: 1
+Reason: The content contains an actual question (Q.3 Set) with a specific problem to be illustrated, indicating the presence of a main question. There is only one distinct main question present, and it does not appear to have multiple sets (e.g., SET A, SET B).
+Text Length: 110 chars
+Action: Keep as is
+--------------------------------------------------
+File: question_06_multipage.pdf
+Status: valid
+Question Count: 1
+Reason: The content contains a single main question, "Q.3 Set. (B) Illustrate the bus arbitration process for CAN nodes with message IDs 0x5B3, 0x5B0, and 0x5B2", which is a distinct question with a specific set (Set. B).
+Text Length: 110 chars
+Action: Keep as is
+--------------------------------------------------
+File: question_07_multipage.pdf
+Status: valid
+Question Count: 1
+Reason: The content contains a single main question, "Q.4 Set. (A)", which includes specific parameters and asks to determine the height of the obstacle to achieve minimum diffraction loss. There are no sub-questions or multiple sets, so it is counted as one distinct main question.
+Text Length: 255 chars
+Action: Keep as is
+--------------------------------------------------
+File: question_08_multipage.pdf
+Status: valid
+Question Count: 1
+Reason: The content contains a single actual question, "Q.4 Set. (B)", which includes specific details about the scenario and asks to determine the height of the obstacle. There are no other questions or sets present.
+Text Length: 254 chars
+Action: Keep as is
+--------------------------------------------------
+File: question_09_multipage.pdf
+Status: valid
+Question Count: 1
+Reason: The content contains an actual question, "Q.5 Set. (A) Describe CAN protocol and its frame structure.", which is a single main question with a set, and there are no other questions or sets present.
+Text Length: 63 chars
+Action: Keep as is
+--------------------------------------------------
+File: question_10_multipage.pdf
+Status: valid
+Question Count: 1
+Reason: The content contains a single main question, "Q.5 Set. (B) Describe LIN protocol and its frame structure.", which includes a set designation, but since there's only one set mentioned, it counts as one distinct main question.
+Text Length: 63 chars
+Action: Keep as is
+--------------------------------------------------
+File: question_11_multipage.pdf
+Status: valid
+Question Count: 1
+Reason: The content contains a single main question, "Q.6 Set. (A) Diﬀerentiate between DSRC, and C-V2X vehicular communication stanfards.", with no indication of multiple sets or sub-questions.
+Text Length: 88 chars
+Action: Keep as is
+--------------------------------------------------
+File: question_12_multipage.pdf
+Status: valid
+Question Count: 1
+Reason: The content contains a single main question, "Q.5 Set. (B) Describe the diﬀerent techniques employed for improving the cellular capacity.", with no indication of multiple sets or question variants.
+Text Length: 97 chars
+Action: Keep as is
+--------------------------------------------------
+
+SUMMARY:
+Total files processed: 12
+Valid single questions: 12
+Files split: 0
+New files created by splitting: 0
+Dirt files: 0
+Error files: 0

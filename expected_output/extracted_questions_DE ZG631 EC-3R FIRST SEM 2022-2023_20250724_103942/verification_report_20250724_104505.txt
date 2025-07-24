@@ -1,0 +1,210 @@
+PDF VERIFICATION REPORT
+Date: 2025-07-24 10:45:05
+Directory: output\extracted_questions_DE ZG631 EC-3R FIRST SEM 2022-2023_20250724_103942
+======================================================================
+
+File: question_01_multipage.pdf
+Status: dirt
+Question Count: 0
+Reason: The provided content does not contain any actual questions, only headers, instructions, and metadata about the exam.
+Text Length: 770 chars
+Action: Mark as dirt
+--------------------------------------------------
+File: question_02_multipage.pdf
+Status: dirt
+Question Count: 0
+Reason: N/A
+Text Length: 0 chars
+Action: Mark as dirt
+--------------------------------------------------
+File: question_03_multipage.pdf
+Status: valid
+Question Count: 1
+Reason: The content contains a single main question that asks to identify the component which has failed due to Ductile Fracture, name the fracture surface, explain the features leading to the decision, and discuss when such fractures occur. There are no sub-questions or sets indicated.
+Text Length: 405 chars
+Action: Keep as is
+--------------------------------------------------
+File: question_04_multipage.pdf
+Status: valid
+Question Count: 1
+Reason: The content contains a single main question, "Q.1 Set. (B)", which includes a problem related to fractography and brittle fracture, with no indication of multiple sets or sub-questions that would increase the question count.
+Text Length: 315 chars
+Action: Keep as is
+--------------------------------------------------
+File: question_05_multipage.pdf
+Status: dirt
+Question Count: 0
+Reason: The content does not contain any actual questions, only figure labels.
+Text Length: 110 chars
+Action: Mark as dirt
+--------------------------------------------------
+File: question_06_multipage.pdf
+Status: dirt
+Question Count: 0
+Reason: N/A
+Text Length: 0 chars
+Action: Mark as dirt
+--------------------------------------------------
+File: question_07_multipage.pdf
+Status: valid
+Question Count: 1
+Reason: The content contains a single main question, "Q.1 Set. (C)", which includes a problem related to fractography and fatigue fracture, along with figures for analysis. There are no indications of multiple sets or separate questions.
+Text Length: 430 chars
+Action: Keep as is
+--------------------------------------------------
+File: question_08_multipage.pdf
+Status: valid
+Question Count: 1
+Reason: The content contains a single main question, "Q2 Set A", with two parts: finding the Rupture time for the material at 100 MPa stress and determining the reduction in life if the stress level is increased to 200MPa, but it is considered as one question variant.
+Text Length: 213 chars
+Action: Keep as is
+--------------------------------------------------
+File: question_09_multipage.pdf
+Status: dirt
+Question Count: 0
+Reason: N/A
+Text Length: 0 chars
+Action: Mark as dirt
+--------------------------------------------------
+File: question_10_multipage.pdf
+Status: valid
+Question Count: 1
+Reason: The content contains a single main question with a specific scenario and requirements, and it is part of "Q2 Set B", indicating a distinct question variant.
+Text Length: 212 chars
+Action: Keep as is
+--------------------------------------------------
+File: question_11_multipage.pdf
+Status: valid
+Question Count: 1
+Reason: The content contains a single main question with a specific scenario and asks for two related calculations (rupture time and reduction in life), but it is considered as one question variant since it's part of "Q2 Set C" without any indication of multiple sets or distinct main questions.
+Text Length: 213 chars
+Action: Keep as is
+--------------------------------------------------
+File: question_12_multipage.pdf
+Status: valid
+Question Count: 1
+Reason: The content contains a single main question, "Q3 Set A", which asks to find the residual life of a fatigue loaded component, with no indication of multiple sets or question variants.
+Text Length: 273 chars
+Action: Keep as is
+--------------------------------------------------
+File: question_13_multipage.pdf
+Status: valid
+Question Count: 1
+Reason: The content contains a single main question, "Q3 Set B", which asks to find the residual life of a fatigue loaded component, with a specific load history and stress amplitude values provided. There are no other distinct main questions or sets present.
+Text Length: 265 chars
+Action: Keep as is
+--------------------------------------------------
+File: question_14_multipage.pdf
+Status: dirt
+Question Count: 0
+Reason: N/A
+Text Length: 0 chars
+Action: Mark as dirt
+--------------------------------------------------
+File: question_15_multipage.pdf
+Status: valid
+Question Count: 1
+Reason: The content contains a single main question, "Q3 Set C", which asks to find the residual life of a fatigue loaded component, with a specific load history and stress amplitude. There is only one question variant, as there is only one set (Set C) mentioned.
+Text Length: 373 chars
+Action: Keep as is
+--------------------------------------------------
+File: question_16_multipage.pdf
+Status: dirt
+Question Count: 0
+Reason: N/A
+Text Length: 0 chars
+Action: Mark as dirt
+--------------------------------------------------
+File: question_17_multipage.pdf
+Status: dirt
+Question Count: 0
+Reason: The content does not contain any actual questions, only a descriptive statement about a cantilever beam with a through-thickness crack and a loading system of forces.
+Text Length: 94 chars
+Action: Mark as dirt
+--------------------------------------------------
+File: question_18_multipage.pdf
+Status: valid
+Question Count: 1
+Reason: The content contains a single main question that asks to determine the value of P at which failure may be expected for a cantilever beam with a through thickness crack, along with a secondary request to check if the given system plate thickness and crack size satisfy the condition for plain strain fracture toughness test, which is considered part of the main question.
+Text Length: 561 chars
+Action: Keep as is
+--------------------------------------------------
+File: question_19_multipage.pdf
+Status: valid
+Question Count: 1
+Reason: The content contains a single main question, "Q.4 Set. (B)", with specific numerical data and requirements to determine the value of P at which failure may be expected, and also to check if the given system plate thickness and crack size satisfy the condition for plain strain fracture toughness test.
+Text Length: 604 chars
+Action: Keep as is
+--------------------------------------------------
+File: question_20_multipage.pdf
+Status: valid
+Question Count: 1
+Reason: The content contains a single main question, "Q.4 Set. (C)", which asks to determine the value of P at which failure may be expected for a cantilever beam with a through-thickness crack, along with additional numerical data and conditions to be considered. There are no sub-questions or multiple sets, so it is counted as one distinct main question.
+Text Length: 596 chars
+Action: Keep as is
+--------------------------------------------------
+File: question_21_multipage.pdf
+Status: valid
+Question Count: 1
+Reason: The content contains a single main question (Q.5 Set A) with multiple sub-questions (a, b, c, d), but no other distinct main questions or sets are present.
+Text Length: 733 chars
+Action: Keep as is
+--------------------------------------------------
+File: question_22_multipage.pdf
+Status: valid
+Question Count: 1
+Reason: The content contains a single main question (Q.5 Set. (B)) with multiple sub-questions (a, b, c, d), and there is only one set mentioned (Set. (B)).
+Text Length: 745 chars
+Action: Keep as is
+--------------------------------------------------
+File: question_23_multipage.pdf
+Status: valid
+Question Count: 1
+Reason: The content contains a single main question (Q.5 Set. (C)) with multiple sub-questions (a, b, c, d), but no other distinct main questions or sets are present.
+Text Length: 735 chars
+Action: Keep as is
+--------------------------------------------------
+File: question_24_multipage.pdf
+Status: valid
+Question Count: 1
+Reason: The content contains a single main question that asks to calculate the diameter of indentation in two different cases and comment on the results, which is considered as one question with two parts.
+Text Length: 303 chars
+Action: Keep as is
+--------------------------------------------------
+File: question_25_multipage.pdf
+Status: valid
+Question Count: 1
+Reason: The content contains a single main question (Q.6 Set. (B)) with two parts: calculating the size of the square indentation and explaining why Brinell hardness test is restricted for low and medium hardness material, but these are considered as part of the main question. There is only one SET mentioned (Set. (B)), and no other question variants or sets are present.
+Text Length: 374 chars
+Action: Keep as is
+--------------------------------------------------
+File: question_26_multipage.pdf
+Status: dirt
+Question Count: 0
+Reason: N/A
+Text Length: 0 chars
+Action: Mark as dirt
+--------------------------------------------------
+File: question_27_multipage.pdf
+Status: valid
+Question Count: 1
+Reason: The content contains a single actual question that asks for differentiation between oxidation and reduction electrochemical reactions and mentions their occurrence with respect to corrosion. There are no sub-questions, sets, or variations of this question.
+Text Length: 156 chars
+Action: Keep as is
+--------------------------------------------------
+File: question_28_multipage.pdf
+Status: valid
+Question Count: 2
+Reason: The content contains two distinct main questions: one about mentioning where corrosion reactions occur, and another about estimating the corrosion penetration rate for the metal plate.
+Text Length: 369 chars
+Action: Splitting into 2 separate files
+Split Result: Failed, keeping original
+--------------------------------------------------
+
+SUMMARY:
+Total files processed: 28
+Valid single questions: 19
+Files split: 0
+New files created by splitting: 0
+Dirt files: 9
+Error files: 0

@@ -1,0 +1,184 @@
+MULTI-PAGE QUESTION EXTRACTION SUMMARY
+Date: 2025-07-24 10:40:11
+Source PDF: ES ZG511 EC-3M SECOND SEM 2022-2023.docx.pdf
+==================================================
+
+Question 1:
+  PDF File: question_01_multipage.pdf
+  Starter: Q1. SET A
+  Pattern Used: exact_flexible
+  Total Pages: 1
+  Page Segments:
+    Segment 1: Page 1, Y 282.89-412.84
+
+Question 2:
+  PDF File: question_02_multipage.pdf
+  Starter: Q1. SET B
+  Pattern Used: exact_flexible
+  Total Pages: 1
+  Page Segments:
+    Segment 1: Page 1, Y 409.84-539.79
+
+Question 3:
+  PDF File: question_03_multipage.pdf
+  Starter: Q1. SET C
+  Pattern Used: exact_flexible
+  Total Pages: 2
+  Page Segments:
+    Segment 1: Page 1, Y 536.79-792.00
+    Segment 2: Page 2, Y 0.00-71.08
+
+Question 4:
+  PDF File: question_04_multipage.pdf
+  Starter: Q2. SET A
+  Pattern Used: exact_flexible
+  Total Pages: 1
+  Page Segments:
+    Segment 1: Page 2, Y 68.08-166.29
+
+Question 5:
+  PDF File: question_05_multipage.pdf
+  Starter: Q2. SET B
+  Pattern Used: exact_flexible
+  Total Pages: 1
+  Page Segments:
+    Segment 1: Page 2, Y 163.29-261.50
+
+Question 6:
+  PDF File: question_06_multipage.pdf
+  Starter: Q2. SET C
+  Pattern Used: exact_flexible
+  Total Pages: 1
+  Page Segments:
+    Segment 1: Page 2, Y 258.50-368.44
+
+Question 7:
+  PDF File: question_07_multipage.pdf
+  Starter: Q3. SET A
+  Pattern Used: exact_flexible
+  Total Pages: 1
+  Page Segments:
+    Segment 1: Page 2, Y 365.44-431.92
+
+Question 8:
+  PDF File: question_08_multipage.pdf
+  Starter: Q3. SET B
+  Pattern Used: exact_flexible
+  Total Pages: 1
+  Page Segments:
+    Segment 1: Page 2, Y 428.92-495.39
+
+Question 9:
+  PDF File: question_09_multipage.pdf
+  Starter: Q3. SET C
+  Pattern Used: exact_flexible
+  Total Pages: 2
+  Page Segments:
+    Segment 1: Page 2, Y 492.39-792.00
+    Segment 2: Page 3, Y 0.00-71.08
+
+Question 10:
+  PDF File: question_10_multipage.pdf
+  Starter: Q4. SET A
+  Pattern Used: exact_flexible
+  Total Pages: 2
+  Page Segments:
+    Segment 1: Page 3, Y 68.08-792.00
+    Segment 2: Page 4, Y 0.00-55.21
+
+Question 11:
+  PDF File: question_11_multipage.pdf
+  Starter: Q4. SET A
+  Pattern Used: q_number_flexible
+  Total Pages: 2
+  Page Segments:
+    Segment 1: Page 4, Y 52.21-792.00
+    Segment 2: Page 5, Y 0.00-55.21
+
+Question 12:
+  PDF File: question_12_multipage.pdf
+  Starter: Q4. SET A
+  Pattern Used: q_number_flexible
+  Total Pages: 2
+  Page Segments:
+    Segment 1: Page 5, Y 52.21-792.00
+    Segment 2: Page 6, Y 0.00-55.21
+
+Question 13:
+  PDF File: question_13_multipage.pdf
+  Starter: Q5. SET A
+  Pattern Used: exact_flexible
+  Total Pages: 2
+  Page Segments:
+    Segment 1: Page 6, Y 52.21-792.00
+    Segment 2: Page 7, Y 0.00-55.21
+
+Question 14:
+  PDF File: question_14_multipage.pdf
+  Starter: Q5. SET A
+  Pattern Used: q_number_flexible
+  Total Pages: 2
+  Page Segments:
+    Segment 1: Page 7, Y 52.21-792.00
+    Segment 2: Page 8, Y 0.00-55.21
+
+Question 15:
+  PDF File: question_15_multipage.pdf
+  Starter: Q5. SET A
+  Pattern Used: q_number_flexible
+  Total Pages: 2
+  Page Segments:
+    Segment 1: Page 8, Y 52.21-792.00
+    Segment 2: Page 9, Y 0.00-55.21
+
+Question 16:
+  PDF File: question_16_multipage.pdf
+  Starter: Q6. SET A
+  Pattern Used: exact_flexible
+  Total Pages: 2
+  Page Segments:
+    Segment 1: Page 9, Y 52.21-792.00
+    Segment 2: Page 10, Y 0.00-55.21
+
+Question 17:
+  PDF File: question_17_multipage.pdf
+  Starter: Q6. SET A
+  Pattern Used: q_number_flexible
+  Total Pages: 2
+  Page Segments:
+    Segment 1: Page 10, Y 52.21-792.00
+    Segment 2: Page 11, Y 0.00-55.21
+
+Question 18:
+  PDF File: question_18_multipage.pdf
+  Starter: Q6. SET A
+  Pattern Used: q_number_flexible
+  Total Pages: 2
+  Page Segments:
+    Segment 1: Page 11, Y 52.21-792.00
+    Segment 2: Page 12, Y 0.00-55.21
+
+Question 19:
+  PDF File: question_19_multipage.pdf
+  Starter: Q7. SET A
+  Pattern Used: exact_flexible
+  Total Pages: 1
+  Page Segments:
+    Segment 1: Page 12, Y 52.21-182.16
+
+Question 20:
+  PDF File: question_20_multipage.pdf
+  Starter: Q7. SET B
+  Pattern Used: exact_flexible
+  Total Pages: 1
+  Page Segments:
+    Segment 1: Page 12, Y 179.16-309.11
+
+Question 21:
+  PDF File: question_21_multipage.pdf
+  Starter: Q7. SET C
+  Pattern Used: exact_flexible
+  Total Pages: 1
+  Page Segments:
+    Segment 1: Page 12, Y 306.11-792.00
+

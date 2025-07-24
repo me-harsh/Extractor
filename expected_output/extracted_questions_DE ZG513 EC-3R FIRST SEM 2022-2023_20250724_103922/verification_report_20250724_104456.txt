@@ -1,0 +1,41 @@
+PDF VERIFICATION REPORT
+Date: 2025-07-24 10:44:56
+Directory: output\extracted_questions_DE ZG513 EC-3R FIRST SEM 2022-2023_20250724_103922
+======================================================================
+
+File: question_01_multipage.pdf
+Status: valid
+Question Count: 1
+Reason: The content contains a single main question (Q.1) with sub-questions (a, b, c, d, e), but no separate sets are identified, so it is counted as one distinct main question.
+Text Length: 510 chars
+Action: Keep as is
+--------------------------------------------------
+File: question_02_multipage.pdf
+Status: valid
+Question Count: 1
+Reason: The content contains a single main question (Q.2) with specific requirements and constraints, and there are no indications of multiple sets or sub-questions that would increase the question count.
+Text Length: 333 chars
+Action: Keep as is
+--------------------------------------------------
+File: question_03_multipage.pdf
+Status: valid
+Question Count: 1
+Reason: The content contains a single main question, Q.3, which asks to solve the Poisson equation with specific boundary conditions and compute unknowns using Matlab software, with no indication of multiple sets or sub-questions.
+Text Length: 384 chars
+Action: Keep as is
+--------------------------------------------------
+File: question_04_multipage.pdf
+Status: valid
+Question Count: 1
+Reason: The content contains a single main question (Q.4) with sub-questions (a and b), but no separate sets are indicated.
+Text Length: 375 chars
+Action: Keep as is
+--------------------------------------------------
+
+SUMMARY:
+Total files processed: 4
+Valid single questions: 4
+Files split: 0
+New files created by splitting: 0
+Dirt files: 0
+Error files: 0

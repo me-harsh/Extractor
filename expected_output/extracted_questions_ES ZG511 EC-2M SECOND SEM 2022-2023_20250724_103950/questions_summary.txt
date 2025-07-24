@@ -1,0 +1,69 @@
+MULTI-PAGE QUESTION EXTRACTION SUMMARY
+Date: 2025-07-24 10:39:50
+Source PDF: ES ZG511 EC-2M SECOND SEM 2022-2023.pdf
+==================================================
+
+Question 1:
+  PDF File: question_01_multipage.pdf
+  Starter: Q.1. Based on the definition
+  Pattern Used: exact_flexible
+  Total Pages: 1
+  Page Segments:
+    Segment 1: Page 1, Y 240.05-276.65
+
+Question 2:
+  PDF File: question_02_multipage.pdf
+  Starter: Q.2. In a process industry
+  Pattern Used: exact_flexible
+  Total Pages: 1
+  Page Segments:
+    Segment 1: Page 1, Y 273.65-324.20
+
+Question 3:
+  PDF File: question_03_multipage.pdf
+  Starter: Q.3. List at least two advantages
+  Pattern Used: exact_flexible
+  Total Pages: 1
+  Page Segments:
+    Segment 1: Page 1, Y 321.20-371.50
+
+Question 4:
+  PDF File: question_04_multipage.pdf
+  Starter: Q.4. Show the output curve
+  Pattern Used: exact_flexible
+  Total Pages: 1
+  Page Segments:
+    Segment 1: Page 1, Y 368.50-405.10
+
+Question 5:
+  PDF File: question_05_multipage.pdf
+  Starter: Q.5. (a) What is the essential
+  Pattern Used: exact_flexible
+  Total Pages: 1
+  Page Segments:
+    Segment 1: Page 1, Y 402.10-499.92
+
+Question 6:
+  PDF File: question_06_multipage.pdf
+  Starter: Q.6. Name the different sensing elements
+  Pattern Used: exact_flexible
+  Total Pages: 1
+  Page Segments:
+    Segment 1: Page 1, Y 496.92-547.47
+
+Question 7:
+  PDF File: question_07_multipage.pdf
+  Starter: Q.7. A liner potentiometer of total
+  Pattern Used: exact_flexible
+  Total Pages: 1
+  Page Segments:
+    Segment 1: Page 1, Y 544.47-608.67
+
+Question 8:
+  PDF File: question_08_multipage.pdf
+  Starter: Q.8. A capacitor is constructed
+  Pattern Used: exact_flexible
+  Total Pages: 1
+  Page Segments:
+    Segment 1: Page 1, Y 605.67-792.00
+

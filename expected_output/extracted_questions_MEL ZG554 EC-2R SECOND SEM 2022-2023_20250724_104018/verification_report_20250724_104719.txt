@@ -1,0 +1,49 @@
+PDF VERIFICATION REPORT
+Date: 2025-07-24 10:47:19
+Directory: output\extracted_questions_MEL ZG554 EC-2R SECOND SEM 2022-2023_20250724_104018
+======================================================================
+
+File: question_01_multipage.pdf
+Status: valid
+Question Count: 1
+Reason: The content contains a single main question, Q1, with a specific problem to be solved using lookup tables (LUTs) and a truth table approach. There are no indications of multiple sets or sub-questions that would increase the question count.
+Text Length: 402 chars
+Action: Keep as is
+--------------------------------------------------
+File: question_02_multipage.pdf
+Status: valid
+Question Count: 1
+Reason: The content contains a single main question (Q2) with sub-questions (a and b), but no separate sets are identified, so it is counted as one distinct main question.
+Text Length: 421 chars
+Action: Keep as is
+--------------------------------------------------
+File: question_03_multipage.pdf
+Status: valid
+Question Count: 1
+Reason: The content contains a single main question, Q3, which asks the designer to implement a 6-bit comparator using the carry logic of XC4000 and provide a circuit diagram of the logic implemented by the LUTs. There are no sub-questions or sets mentioned.
+Text Length: 330 chars
+Action: Keep as is
+--------------------------------------------------
+File: question_04_multipage.pdf
+Status: valid
+Question Count: 1
+Reason: The content contains a single main question, Q4, which asks to show how a simplified block diagram of the XC4000 CLB can be used to build a 8x1 dual-port RAM. There are no sub-questions, sets, or other question variants.
+Text Length: 280 chars
+Action: Keep as is
+--------------------------------------------------
+File: question_05_multipage.pdf
+Status: valid
+Question Count: 3
+Reason: The content contains actual questions (Q5 with sub-questions a, b, and c), and there are no sets (e.g., SET A, SET B) mentioned, so each sub-question under Q5 is considered part of the main question, resulting in a total of 3 distinct main questions (a, b, and c under Q5).
+Text Length: 898 chars
+Action: Splitting into 3 separate files
+Split Result: Failed, keeping original
+--------------------------------------------------
+
+SUMMARY:
+Total files processed: 5
+Valid single questions: 5
+Files split: 0
+New files created by splitting: 0
+Dirt files: 0
+Error files: 0

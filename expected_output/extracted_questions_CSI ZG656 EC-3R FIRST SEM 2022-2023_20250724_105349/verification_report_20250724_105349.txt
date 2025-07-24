@@ -1,0 +1,35 @@
+PDF VERIFICATION REPORT
+Date: 2025-07-24 10:53:49
+Directory: output\extracted_questions_CSI ZG656 EC-3R FIRST SEM 2022-2023_20250724_105349
+======================================================================
+
+File: question_01_multipage.pdf
+Status: valid
+Question Count: 10
+Reason: The content contains actual questions, and there are 10 distinct main questions present, labeled (a) to (j), each with its own specific query related to the deployment and functionality of a Wireless Sensor Network (WSN) in an agricultural setting.
+Text Length: 4050 chars
+Action: Splitting into 10 separate files
+Split Result: Failed, keeping original
+--------------------------------------------------
+File: question_02_multipage.pdf
+Status: valid
+Question Count: 1
+Reason: The content contains a single main question "Q.2" with multiple sub-questions (a) to (e) that are part of it, and there are no sets or variations of the main question.
+Text Length: 658 chars
+Action: Keep as is
+--------------------------------------------------
+File: question_03_multipage.pdf
+Status: valid
+Question Count: 1
+Reason: The content contains a single main question (Q.3) with a specific query about the difference between Mobicast and Multicast communication and the preference for 802.11p in VANETS. There are no sub-questions or sets indicated.
+Text Length: 213 chars
+Action: Keep as is
+--------------------------------------------------
+
+SUMMARY:
+Total files processed: 3
+Valid single questions: 3
+Files split: 0
+New files created by splitting: 0
+Dirt files: 0
+Error files: 0

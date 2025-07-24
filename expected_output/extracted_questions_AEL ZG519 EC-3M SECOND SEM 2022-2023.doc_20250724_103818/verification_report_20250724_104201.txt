@@ -1,0 +1,127 @@
+PDF VERIFICATION REPORT
+Date: 2025-07-24 10:42:01
+Directory: output\extracted_questions_AEL ZG519 EC-3M SECOND SEM 2022-2023.doc_20250724_103818
+======================================================================
+
+File: question_01_multipage.pdf
+Status: valid
+Question Count: 1
+Reason: The content contains one actual question, "Q.1.​ SET (A)", which asks about the role of intrusion detection systems (IDS) in Automotive and classification of IDS types. There are no other questions or sets present.
+Text Length: 484 chars
+Action: Keep as is
+--------------------------------------------------
+File: question_02_multipage.pdf
+Status: valid
+Question Count: 1
+Reason: The content contains a single main question, "Please provide an overview of SIEM product and security operations center in detail," which is part of "Q 1 SET (B)". There are no other questions or sets present.
+Text Length: 114 chars
+Action: Keep as is
+--------------------------------------------------
+File: question_03_multipage.pdf
+Status: valid
+Question Count: 2
+Reason: The content contains two distinct main questions, "Q 1" and "Q.2", each with its own SET designation, indicating they are separate questions.
+Text Length: 359 chars
+Action: Splitting into 2 separate files
+Split Result: Failed, keeping original
+--------------------------------------------------
+File: question_04_multipage.pdf
+Status: valid
+Question Count: 1
+Reason: The content contains a single main question, "Q2", with a specific requirement and marking, indicating a distinct question. There is only one SET mentioned, "SET (B)", which is considered part of this single question.
+Text Length: 240 chars
+Action: Keep as is
+--------------------------------------------------
+File: question_05_multipage.pdf
+Status: valid
+Question Count: 1
+Reason: The content contains a single main question, "Q2", with a specific requirement and marking, indicating a legitimate question. There is only one SET mentioned, "SET (C)", which is considered as part of the single question variant.
+Text Length: 233 chars
+Action: Keep as is
+--------------------------------------------------
+File: question_06_multipage.pdf
+Status: valid
+Question Count: 1
+Reason: The content contains a single main question "Q.3.​ SET (A)" with sub-questions (a), (b), and (c), and there is only one set, "SET (A)".
+Text Length: 484 chars
+Action: Keep as is
+--------------------------------------------------
+File: question_07_multipage.pdf
+Status: valid
+Question Count: 1
+Reason: There is one main question "Q 3" with sub-questions (a), (b), and (c), and it belongs to "SET (B)". Since there's only one set mentioned, the total question count remains 1.
+Text Length: 513 chars
+Action: Keep as is
+--------------------------------------------------
+File: question_08_multipage.pdf
+Status: valid
+Question Count: 2
+Reason: The content contains actual questions with distinct main questions, including "Q 3     SET (C)" and "Q.4.​ SET (A)", which are considered separate due to the different SET identifiers. Sub-questions (a, b, c) under "Q 3" are part of the main question "Q 3".
+Text Length: 581 chars
+Action: Splitting into 2 separate files
+Split Result: Failed, keeping original
+--------------------------------------------------
+File: question_09_multipage.pdf
+Status: valid
+Question Count: 1
+Reason: The content contains a single main question, "Please explain impact level parameters in HEAVENS security model," which is part of "Q4 SET (B)". There are no other questions or sets present.
+Text Length: 107 chars
+Action: Keep as is
+--------------------------------------------------
+File: question_10_multipage.pdf
+Status: valid
+Question Count: 1
+Reason: The content contains a single main question, "Please explain attack potential factors defined by EVITA project," which is labeled as Q4 SET (C), indicating it is a distinct question variant.
+Text Length: 111 chars
+Action: Keep as is
+--------------------------------------------------
+File: question_11_multipage.pdf
+Status: valid
+Question Count: 1
+Reason: The content contains a single main question (Q.5) with sub-questions (a and b), and it belongs to SET (A), indicating one distinct main question.
+Text Length: 221 chars
+Action: Keep as is
+--------------------------------------------------
+File: question_12_multipage.pdf
+Status: valid
+Question Count: 1
+Reason: The content contains a single main question (Q5) with sub-questions (a and b), and it is part of SET (B), indicating that there could be other sets (e.g., SET A) with the same question number, but in this specific extract, only one question variant is present.
+Text Length: 249 chars
+Action: Keep as is
+--------------------------------------------------
+File: question_13_multipage.pdf
+Status: valid
+Question Count: 1
+Reason: The content contains a single main question (Q5) with sub-questions (a and b), and it belongs to a specific set (SET C), but there is only one distinct main question present.
+Text Length: 271 chars
+Action: Keep as is
+--------------------------------------------------
+File: question_14_multipage.pdf
+Status: valid
+Question Count: 1
+Reason: The content contains a single main question (Q6) with two sub-questions (a and b), and it belongs to a single set (SET A).
+Text Length: 284 chars
+Action: Keep as is
+--------------------------------------------------
+File: question_15_multipage.pdf
+Status: valid
+Question Count: 1
+Reason: The content contains a single main question (Q6) with two sub-questions (a and b), and it is part of SET(B), indicating a distinct question variant.
+Text Length: 259 chars
+Action: Keep as is
+--------------------------------------------------
+File: question_16_multipage.pdf
+Status: valid
+Question Count: 1
+Reason: The content contains a single main question (Q6) with sub-questions (a and b), and it is part of a set (SET C), but since there's only one set mentioned, it counts as one distinct main question.
+Text Length: 304 chars
+Action: Keep as is
+--------------------------------------------------
+
+SUMMARY:
+Total files processed: 16
+Valid single questions: 16
+Files split: 0
+New files created by splitting: 0
+Dirt files: 0
+Error files: 0

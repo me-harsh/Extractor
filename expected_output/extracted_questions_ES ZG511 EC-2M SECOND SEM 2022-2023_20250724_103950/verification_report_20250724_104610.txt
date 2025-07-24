@@ -1,0 +1,69 @@
+PDF VERIFICATION REPORT
+Date: 2025-07-24 10:46:10
+Directory: output\extracted_questions_ES ZG511 EC-2M SECOND SEM 2022-2023_20250724_103950
+======================================================================
+
+File: question_01_multipage.pdf
+Status: valid
+Question Count: 1
+Reason: The content contains a single actual question, "Q.1. Based on the definition of ‘Mechatronics’, justify that Automatic Washing Machine is a Mechatronic product." with no indication of sets or sub-questions that would increase the count.
+Text Length: 140 chars
+Action: Keep as is
+--------------------------------------------------
+File: question_02_multipage.pdf
+Status: valid
+Question Count: 1
+Reason: The content contains a single main question (Q.2) with a specific problem and asks for suggestions on sensing methods, indicating a clear and actual question. There are no sub-questions or sets mentioned, so it is counted as one distinct main question.
+Text Length: 270 chars
+Action: Keep as is
+--------------------------------------------------
+File: question_03_multipage.pdf
+Status: valid
+Question Count: 1
+Reason: The content contains a single main question (Q.3) with a specific prompt, and there are no indications of multiple sets or sub-questions that would increase the question count.
+Text Length: 243 chars
+Action: Keep as is
+--------------------------------------------------
+File: question_04_multipage.pdf
+Status: valid
+Question Count: 1
+Reason: The content contains a single main question (Q.4) with a specific task and requirements, indicating the presence of an actual question. There are no sub-questions, sets, or variations, so it is counted as one distinct main question.
+Text Length: 174 chars
+Action: Keep as is
+--------------------------------------------------
+File: question_05_multipage.pdf
+Status: valid
+Question Count: 1
+Reason: The content contains a single main question (Q.5) with sub-questions (a), (b), and (c), but no separate sets are present.
+Text Length: 418 chars
+Action: Keep as is
+--------------------------------------------------
+File: question_06_multipage.pdf
+Status: valid
+Question Count: 1
+Reason: The content contains a single main question (Q.6) with a specific problem to be solved, indicating the presence of an actual question. There are no sub-questions or sets mentioned, so it is counted as one distinct main question.
+Text Length: 288 chars
+Action: Keep as is
+--------------------------------------------------
+File: question_07_multipage.pdf
+Status: valid
+Question Count: 1
+Reason: The content contains a single main question (Q.7) with specific requirements and constraints, and there are no indications of multiple sets or sub-questions that would constitute separate main questions.
+Text Length: 374 chars
+Action: Keep as is
+--------------------------------------------------
+File: question_08_multipage.pdf
+Status: valid
+Question Count: 1
+Reason: The content contains a single actual question (Q.8) with specific details and requirements, and there are no indications of multiple sets or sub-questions.
+Text Length: 430 chars
+Action: Keep as is
+--------------------------------------------------
+
+SUMMARY:
+Total files processed: 8
+Valid single questions: 8
+Files split: 0
+New files created by splitting: 0
+Dirt files: 0
+Error files: 0

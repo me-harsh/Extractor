@@ -1,0 +1,57 @@
+PDF VERIFICATION REPORT
+Date: 2025-07-24 10:43:58
+Directory: output\extracted_questions_CSI ZG520 EC-2R FIRST SEM 2022-2023_20250724_103857
+======================================================================
+
+File: question_01_multipage.pdf
+Status: valid
+Question Count: 1
+Reason: The content contains a single main question (Q. 1) with sub-questions (i), (ii), and (iii) that are part of it, and there are no separate sets or question variants.
+Text Length: 769 chars
+Action: Keep as is
+--------------------------------------------------
+File: question_02_multipage.pdf
+Status: valid
+Question Count: 1
+Reason: There is only one main question (Q. 2) with sub-questions (a), (b), and (c), but no separate sets are indicated, so it counts as a single question with multiple parts.
+Text Length: 913 chars
+Action: Keep as is
+--------------------------------------------------
+File: question_03_multipage.pdf
+Status: valid
+Question Count: 1
+Reason: The content contains a single main question (Q. 3) with multiple sub-questions (i to v) related to an AM signal, but no separate sets are identified.
+Text Length: 441 chars
+Action: Keep as is
+--------------------------------------------------
+File: question_04_multipage.pdf
+Status: valid
+Question Count: 3
+Reason: The content contains actual questions with distinct topics, including a GSM system, a bandwidth limited transponder, and an aircraft communication system, each with its own set of requirements and calculations to be performed.
+Text Length: 1136 chars
+Action: Splitting into 3 separate files
+Split Result: Failed, keeping original
+--------------------------------------------------
+File: question_05_multipage.pdf
+Status: valid
+Question Count: 1
+Reason: The content contains a single main question (Q. 5) with sub-questions (a), (b), and (c) that are part of it, and there are no separate sets or question variants.
+Text Length: 896 chars
+Action: Keep as is
+--------------------------------------------------
+File: question_06_multipage.pdf
+Status: valid
+Question Count: 2
+Reason: The content contains two distinct main questions: Q. 6 (with sub-parts (a) and (b)) appears to be incomplete, but the presence of (b) with a separate question about a random process W(t) indicates two separate questions.
+Text Length: 357 chars
+Action: Splitting into 2 separate files
+Split Result: Failed, keeping original
+--------------------------------------------------
+
+SUMMARY:
+Total files processed: 6
+Valid single questions: 6
+Files split: 0
+New files created by splitting: 0
+Dirt files: 0
+Error files: 0

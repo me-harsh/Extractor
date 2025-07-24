@@ -1,0 +1,41 @@
+PDF VERIFICATION REPORT
+Date: 2025-07-24 10:41:23
+Directory: output\extracted_questions_AE ZG518 EC-3R FIRST SEM 2022-2023_20250724_103756
+======================================================================
+
+File: question_01_multipage.pdf
+Status: valid
+Question Count: 1
+Reason: The content contains a single main question (Q.1) with sub-questions (a, b, c) that are part of the main question, and there are no sets or variations of the question.
+Text Length: 797 chars
+Action: Keep as is
+--------------------------------------------------
+File: question_02_multipage.pdf
+Status: valid
+Question Count: 1
+Reason: The content contains a single main question, Q.2, which asks to design a bidirectional DC-DC converter for a 10kW system with specific requirements. There are no sub-questions, sets, or other question variants present.
+Text Length: 283 chars
+Action: Keep as is
+--------------------------------------------------
+File: question_03_multipage.pdf
+Status: valid
+Question Count: 1
+Reason: The content contains a single main question (Q.3) with sub-questions (a, b, c, d) that are part of it, and there are no sets or variations of the question.
+Text Length: 541 chars
+Action: Keep as is
+--------------------------------------------------
+File: question_04_multipage.pdf
+Status: valid
+Question Count: 1
+Reason: The content contains a single main question, "Q.4. Compare different types of battery charging methods", with no indication of sub-questions or sets.
+Text Length: 110 chars
+Action: Keep as is
+--------------------------------------------------
+
+SUMMARY:
+Total files processed: 4
+Valid single questions: 4
+Files split: 0
+New files created by splitting: 0
+Dirt files: 0
+Error files: 0

@@ -1,0 +1,55 @@
+MULTI-PAGE QUESTION EXTRACTION SUMMARY
+Date: 2025-07-24 10:38:57
+Source PDF: CSI ZG520 EC-2R FIRST SEM 2022-2023.pdf
+==================================================
+
+Question 1:
+  PDF File: question_01_multipage.pdf
+  Starter: Q. 1 A local spatial average
+  Pattern Used: exact_flexible
+  Total Pages: 2
+  Page Segments:
+    Segment 1: Page 1, Y 266.11-792.00
+    Segment 2: Page 2, Y 0.00-28.76
+
+Question 2:
+  PDF File: question_02_multipage.pdf
+  Starter: Q. 1 A local spatial average
+  Pattern Used: substring_fallback
+  Total Pages: 1
+  Page Segments:
+    Segment 1: Page 2, Y 25.76-390.31
+
+Question 3:
+  PDF File: question_03_multipage.pdf
+  Starter: Q. 3
+  Pattern Used: exact_flexible
+  Total Pages: 1
+  Page Segments:
+    Segment 1: Page 2, Y 387.31-532.96
+
+Question 4:
+  PDF File: question_04_multipage.pdf
+  Starter: Q. 4
+  Pattern Used: exact_flexible
+  Total Pages: 1
+  Page Segments:
+    Segment 1: Page 2, Y 529.96-739.01
+
+Question 5:
+  PDF File: question_05_multipage.pdf
+  Starter: Q. 5
+  Pattern Used: exact_flexible
+  Total Pages: 2
+  Page Segments:
+    Segment 1: Page 2, Y 736.01-792.00
+    Segment 2: Page 3, Y 0.00-157.61
+
+Question 6:
+  PDF File: question_06_multipage.pdf
+  Starter: Q. 1 A local spatial average
+  Pattern Used: substring_fallback
+  Total Pages: 1
+  Page Segments:
+    Segment 1: Page 3, Y 154.61-792.00
+

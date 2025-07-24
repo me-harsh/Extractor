@@ -1,0 +1,55 @@
+PDF VERIFICATION REPORT
+Date: 2025-07-24 10:43:19
+Directory: output\extracted_questions_BA ZC425 EC-2R FIRST SEM 2022-2023_20250724_103838
+======================================================================
+
+File: question_01_multipage.pdf
+Status: valid
+Question Count: 1
+Reason: The content contains a single main question, "Q.1Set. (A)", which asks to calculate the employee turnover rate and assess the dysfunctional employee turnover using an excel sheet. There are no sub-questions or other main questions present.
+Text Length: 343 chars
+Action: Keep as is
+--------------------------------------------------
+File: question_02_multipage.pdf
+Status: valid
+Question Count: 1
+Reason: The content contains a single main question, "Q.1Set. (B)", which asks to calculate the employee turnover rate and provide insights on whether the company is facing 'Infant Attrition'. There are no sub-questions or multiple sets, so it is counted as one distinct main question.
+Text Length: 320 chars
+Action: Keep as is
+--------------------------------------------------
+File: question_03_multipage.pdf
+Status: valid
+Question Count: 1
+Reason: The content contains a single main question, "Categorize the following measures as Measures of Efficiency, Effectiveness, or Outcomes/Impact", which is a distinct question with multiple sub-points to be categorized, and it is part of a set labeled as "Q.2Set. (A)".
+Text Length: 301 chars
+Action: Keep as is
+--------------------------------------------------
+File: question_04_multipage.pdf
+Status: valid
+Question Count: 1
+Reason: The content contains a single main question, "Categorize the following measures as Measures of Efficiency, Effectiveness, or Outcomes/Impact", which is a distinct question with multiple sub-points to be categorized, and it is part of a set (Q.2Set. (B)).
+Text Length: 329 chars
+Action: Keep as is
+--------------------------------------------------
+File: question_05_multipage.pdf
+Status: valid
+Question Count: 1
+Reason: The content contains a single main question, "Q.3Set. (A)", which involves cleaning data from an Excel sheet, and there are no other distinct main questions or sets present.
+Text Length: 176 chars
+Action: Keep as is
+--------------------------------------------------
+File: question_06_multipage.pdf
+Status: valid
+Question Count: 1
+Reason: The content contains a single main question (Q.3Set. (B)) that asks for a comment on the role of technology in talent management, with no sub-questions or additional sets.
+Text Length: 333 chars
+Action: Keep as is
+--------------------------------------------------
+
+SUMMARY:
+Total files processed: 6
+Valid single questions: 6
+Files split: 0
+New files created by splitting: 0
+Dirt files: 0
+Error files: 0

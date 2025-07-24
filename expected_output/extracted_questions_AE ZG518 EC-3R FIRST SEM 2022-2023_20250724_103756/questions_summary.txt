@@ -1,0 +1,38 @@
+MULTI-PAGE QUESTION EXTRACTION SUMMARY
+Date: 2025-07-24 10:37:56
+Source PDF: AE ZG518 EC-3R FIRST SEM 2022-2023.pdf
+==================================================
+
+Question 1:
+  PDF File: question_01_multipage.pdf
+  Starter: Q.1.
+  Pattern Used: exact_flexible
+  Total Pages: 2
+  Page Segments:
+    Segment 1: Page 1, Y 323.19-792.00
+    Segment 2: Page 2, Y 0.00-271.35
+
+Question 2:
+  PDF File: question_02_multipage.pdf
+  Starter: Q.2. Design a suitable
+  Pattern Used: exact_flexible
+  Total Pages: 1
+  Page Segments:
+    Segment 1: Page 2, Y 268.35-340.35
+
+Question 3:
+  PDF File: question_03_multipage.pdf
+  Starter: Q.3. The specifications
+  Pattern Used: exact_flexible
+  Total Pages: 1
+  Page Segments:
+    Segment 1: Page 2, Y 337.35-539.09
+
+Question 4:
+  PDF File: question_04_multipage.pdf
+  Starter: Q.4. Compare different types
+  Pattern Used: exact_flexible
+  Total Pages: 1
+  Page Segments:
+    Segment 1: Page 2, Y 536.09-792.00
+

@@ -1,0 +1,55 @@
+PDF VERIFICATION REPORT
+Date: 2025-07-24 10:42:44
+Directory: output\extracted_questions_AEL ZG554 EC-2R FIRST SEM 2022-2023 (1)_20250724_103824
+======================================================================
+
+File: question_01_multipage.pdf
+Status: valid
+Question Count: 1
+Reason: The content contains a single main question, Q1, which asks to design a network collision detector using FPGA, with a specific implementation requirement. There are no sub-questions, sets, or variants of this question present in the given content.
+Text Length: 631 chars
+Action: Keep as is
+--------------------------------------------------
+File: question_02_multipage.pdf
+Status: valid
+Question Count: 1
+Reason: The content contains a single main question, Q2, which asks to compute the minimum number of LUTs and MUXs required to implement a seven input arbitrary function, with additional sub-questions to re-compute and generalize the expression. There are no sets or multiple variants of the question.
+Text Length: 405 chars
+Action: Keep as is
+--------------------------------------------------
+File: question_03_multipage.pdf
+Status: valid
+Question Count: 1
+Reason: The content contains a single main question (Q3) with sub-questions (a and b), but no separate sets are indicated, so it is counted as one distinct main question.
+Text Length: 365 chars
+Action: Keep as is
+--------------------------------------------------
+File: question_04_multipage.pdf
+Status: valid
+Question Count: 1
+Reason: The content contains a single main question (Q4) with a specific scenario and asks about the logic function implemented by the circuit and the effect of a single event upset (SEU) error on the output. There are no distinct sets or sub-questions that would increase the question count.
+Text Length: 385 chars
+Action: Keep as is
+--------------------------------------------------
+File: question_05_multipage.pdf
+Status: valid
+Question Count: 1
+Reason: The content contains a single main question (Q5) with a specific prompt, and there are no indications of multiple sets or sub-questions that would increase the question count.
+Text Length: 199 chars
+Action: Keep as is
+--------------------------------------------------
+File: question_06_multipage.pdf
+Status: valid
+Question Count: 1
+Reason: The content contains a single main question, Q6, with no indication of sets or sub-questions that would increase the count.
+Text Length: 227 chars
+Action: Keep as is
+--------------------------------------------------
+
+SUMMARY:
+Total files processed: 6
+Valid single questions: 6
+Files split: 0
+New files created by splitting: 0
+Dirt files: 0
+Error files: 0

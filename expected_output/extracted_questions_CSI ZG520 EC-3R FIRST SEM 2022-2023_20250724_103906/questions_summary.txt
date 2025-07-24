@@ -1,0 +1,46 @@
+MULTI-PAGE QUESTION EXTRACTION SUMMARY
+Date: 2025-07-24 10:39:06
+Source PDF: CSI ZG520 EC-3R FIRST SEM 2022-2023.pdf
+==================================================
+
+Question 1:
+  PDF File: question_01_multipage.pdf
+  Starter: Q. 1 Consider the design
+  Pattern Used: substring_fallback
+  Total Pages: 1
+  Page Segments:
+    Segment 1: Page 1, Y 252.31-495.41
+
+Question 2:
+  PDF File: question_02_multipage.pdf
+  Starter: Q. 3
+  Pattern Used: exact_flexible
+  Total Pages: 1
+  Page Segments:
+    Segment 1: Page 1, Y 492.41-613.11
+
+Question 3:
+  PDF File: question_03_multipage.pdf
+  Starter: Q. 4
+  Pattern Used: exact_flexible
+  Total Pages: 2
+  Page Segments:
+    Segment 1: Page 1, Y 610.11-792.00
+    Segment 2: Page 2, Y 0.00-54.31
+
+Question 4:
+  PDF File: question_04_multipage.pdf
+  Starter: Q. 1 Consider the design
+  Pattern Used: substring_fallback
+  Total Pages: 1
+  Page Segments:
+    Segment 1: Page 2, Y 51.31-391.06
+
+Question 5:
+  PDF File: question_05_multipage.pdf
+  Starter: Q. 6
+  Pattern Used: exact_flexible
+  Total Pages: 1
+  Page Segments:
+    Segment 1: Page 2, Y 388.06-792.00
+

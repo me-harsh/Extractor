@@ -1,0 +1,111 @@
+MULTI-PAGE QUESTION EXTRACTION SUMMARY
+Date: 2025-07-24 10:37:47
+Source PDF: AE ZC442 EC-3R FIRST SEM 2022-2023.pdf
+==================================================
+
+Question 1:
+  PDF File: question_01_multipage.pdf
+  Starter: Q.1 Set. (A) Compare
+  Pattern Used: exact_flexible
+  Total Pages: 1
+  Page Segments:
+    Segment 1: Page 1, Y 147.97-310.12
+
+Question 2:
+  PDF File: question_02_multipage.pdf
+  Starter: Q.1 Set. (B) Compare
+  Pattern Used: exact_flexible
+  Total Pages: 1
+  Page Segments:
+    Segment 1: Page 1, Y 307.12-469.27
+
+Question 3:
+  PDF File: question_03_multipage.pdf
+  Starter: Q.2 Set. (A) Consider
+  Pattern Used: exact_flexible
+  Total Pages: 1
+  Page Segments:
+    Segment 1: Page 1, Y 466.27-522.13
+
+Question 4:
+  PDF File: question_04_multipage.pdf
+  Starter: Q.2 Set. (B) Consider
+  Pattern Used: exact_flexible
+  Total Pages: 1
+  Page Segments:
+    Segment 1: Page 1, Y 519.13-574.82
+
+Question 5:
+  PDF File: question_05_multipage.pdf
+  Starter: Q.3 Set. (A) Consider
+  Pattern Used: exact_flexible
+  Total Pages: 1
+  Page Segments:
+    Segment 1: Page 1, Y 571.82-642.12
+
+Question 6:
+  PDF File: question_06_multipage.pdf
+  Starter: Q.3 Set. (B) Consider
+  Pattern Used: exact_flexible
+  Total Pages: 2
+  Page Segments:
+    Segment 1: Page 1, Y 639.12-792.00
+    Segment 2: Page 2, Y 0.00-57.30
+
+Question 7:
+  PDF File: question_07_multipage.pdf
+  Starter: Q.4 Set. (A) Represent
+  Pattern Used: exact_flexible
+  Total Pages: 1
+  Page Segments:
+    Segment 1: Page 2, Y 54.30-163.90
+
+Question 8:
+  PDF File: question_08_multipage.pdf
+  Starter: Q.5 Set. (A) Consider
+  Pattern Used: exact_flexible
+  Total Pages: 1
+  Page Segments:
+    Segment 1: Page 2, Y 160.90-396.26
+
+Question 9:
+  PDF File: question_09_multipage.pdf
+  Starter: Q.5 Set. (B) Consider
+  Pattern Used: exact_flexible
+  Total Pages: 1
+  Page Segments:
+    Segment 1: Page 2, Y 393.26-627.10
+
+Question 10:
+  PDF File: question_10_multipage.pdf
+  Starter: Q.6 Set. (A) What
+  Pattern Used: exact_flexible
+  Total Pages: 1
+  Page Segments:
+    Segment 1: Page 2, Y 624.10-665.95
+
+Question 11:
+  PDF File: question_11_multipage.pdf
+  Starter: Q.6 Set. (B) What
+  Pattern Used: exact_flexible
+  Total Pages: 2
+  Page Segments:
+    Segment 1: Page 2, Y 662.95-792.00
+    Segment 2: Page 3, Y 0.00-57.30
+
+Question 12:
+  PDF File: question_12_multipage.pdf
+  Starter: Q.7 Set. (A) Explain
+  Pattern Used: exact_flexible
+  Total Pages: 1
+  Page Segments:
+    Segment 1: Page 3, Y 54.30-81.71
+
+Question 13:
+  PDF File: question_13_multipage.pdf
+  Starter: Q.7 Set. (B) Diﬀerentiate
+  Pattern Used: exact_flexible
+  Total Pages: 1
+  Page Segments:
+    Segment 1: Page 3, Y 78.71-792.00
+

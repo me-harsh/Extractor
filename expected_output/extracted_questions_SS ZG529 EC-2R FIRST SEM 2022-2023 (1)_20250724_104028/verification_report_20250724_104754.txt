@@ -1,0 +1,41 @@
+PDF VERIFICATION REPORT
+Date: 2025-07-24 10:47:54
+Directory: output\extracted_questions_SS ZG529 EC-2R FIRST SEM 2022-2023 (1)_20250724_104028
+======================================================================
+
+File: question_01_multipage.pdf
+Status: valid
+Question Count: 1
+Reason: The content contains a single main question (Q1) with multiple sub-questions (a, b, c, d, e) that are related to the same network diagram and are considered part of the main question. There are no separate sets (e.g., SET A, SET B) that would indicate multiple question variants.
+Text Length: 936 chars
+Action: Keep as is
+--------------------------------------------------
+File: question_02_multipage.pdf
+Status: valid
+Question Count: 1
+Reason: The content contains a single main question, Q2, which asks to train a perceptron using the perceptron convergence algorithm to perform a NOR logic operation. There are no sub-questions, sets, or variants, so it is counted as one distinct main question.
+Text Length: 202 chars
+Action: Keep as is
+--------------------------------------------------
+File: question_03_multipage.pdf
+Status: valid
+Question Count: 1
+Reason: The content contains a single main question (Q3) with sub-questions (a, b, c), but no separate sets are identified, so it is counted as one distinct main question.
+Text Length: 419 chars
+Action: Keep as is
+--------------------------------------------------
+File: question_04_multipage.pdf
+Status: valid
+Question Count: 1
+Reason: The content contains a single main question (Q4) with sub-questions (a, b, c, d), but no separate sets are identified, so it is counted as one distinct main question.
+Text Length: 256 chars
+Action: Keep as is
+--------------------------------------------------
+
+SUMMARY:
+Total files processed: 4
+Valid single questions: 4
+Files split: 0
+New files created by splitting: 0
+Dirt files: 0
+Error files: 0

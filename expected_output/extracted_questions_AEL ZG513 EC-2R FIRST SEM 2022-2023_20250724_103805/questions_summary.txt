@@ -1,0 +1,102 @@
+MULTI-PAGE QUESTION EXTRACTION SUMMARY
+Date: 2025-07-24 10:38:05
+Source PDF: AEL ZG513 EC-2R FIRST SEM 2022-2023.pdf
+==================================================
+
+Question 1:
+  PDF File: question_01_multipage.pdf
+  Starter: Q.1 Set. (A) In order to mitigate
+  Pattern Used: exact_flexible
+  Total Pages: 1
+  Page Segments:
+    Segment 1: Page 1, Y 153.34-238.53
+
+Question 2:
+  PDF File: question_02_multipage.pdf
+  Starter: Q.1 Set. (B) In order to mitigate
+  Pattern Used: exact_flexible
+  Total Pages: 1
+  Page Segments:
+    Segment 1: Page 1, Y 235.53-320.72
+
+Question 3:
+  PDF File: question_03_multipage.pdf
+  Starter: Q.2 Set. (A) Determine the received
+  Pattern Used: exact_flexible
+  Total Pages: 1
+  Page Segments:
+    Segment 1: Page 1, Y 317.72-442.26
+
+Question 4:
+  PDF File: question_04_multipage.pdf
+  Starter: Q.2 Set. (B) Determine the received
+  Pattern Used: exact_flexible
+  Total Pages: 1
+  Page Segments:
+    Segment 1: Page 1, Y 439.26-563.81
+
+Question 5:
+  PDF File: question_05_multipage.pdf
+  Starter: Q.3 Set. (A) Illustrate the bus
+  Pattern Used: exact_flexible
+  Total Pages: 1
+  Page Segments:
+    Segment 1: Page 1, Y 560.81-602.66
+
+Question 6:
+  PDF File: question_06_multipage.pdf
+  Starter: Q.3 Set. (B) Illustrate the bus
+  Pattern Used: exact_flexible
+  Total Pages: 1
+  Page Segments:
+    Segment 1: Page 1, Y 599.66-641.52
+
+Question 7:
+  PDF File: question_07_multipage.pdf
+  Starter: Q.4 Set. (A) The distance of obstacle
+  Pattern Used: exact_flexible
+  Total Pages: 2
+  Page Segments:
+    Segment 1: Page 1, Y 638.52-792.00
+    Segment 2: Page 2, Y 0.00-57.30
+
+Question 8:
+  PDF File: question_08_multipage.pdf
+  Starter: Q.4 Set. (A) The distance of obstacle
+  Pattern Used: q_number_flexible
+  Total Pages: 1
+  Page Segments:
+    Segment 1: Page 2, Y 54.30-110.60
+
+Question 9:
+  PDF File: question_09_multipage.pdf
+  Starter: Q.5 Set. (A) Describe CAN
+  Pattern Used: exact_flexible
+  Total Pages: 1
+  Page Segments:
+    Segment 1: Page 2, Y 107.60-135.01
+
+Question 10:
+  PDF File: question_10_multipage.pdf
+  Starter: Q.5 Set. (B) Describe LIN
+  Pattern Used: exact_flexible
+  Total Pages: 1
+  Page Segments:
+    Segment 1: Page 2, Y 132.01-159.42
+
+Question 11:
+  PDF File: question_11_multipage.pdf
+  Starter: Q.6 Set. (A) Diﬀerentiate between
+  Pattern Used: exact_flexible
+  Total Pages: 1
+  Page Segments:
+    Segment 1: Page 2, Y 156.42-183.83
+
+Question 12:
+  PDF File: question_12_multipage.pdf
+  Starter: Q.5 Set. (B) Describe the
+  Pattern Used: exact_flexible
+  Total Pages: 1
+  Page Segments:
+    Segment 1: Page 2, Y 180.83-792.00
+

@@ -1,0 +1,6 @@
+#ignore the expected_output
+exptected_output/
+my-venv/
+test_files/
+
+#ignore other things

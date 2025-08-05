@@ -2,5 +2,6 @@
 expected_output/
 my-venv/
 test_files/
+output/
 
 #ignore other things

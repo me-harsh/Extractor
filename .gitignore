@@ -1,5 +1,5 @@
 #ignore the expected_output
-exptected_output/
+expected_output/
 my-venv/
 test_files/
 

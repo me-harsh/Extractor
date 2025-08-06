@@ -15,7 +15,7 @@ from pathlib import Path
 
 
 # ======================
-# Image Descriptor function
+# Image Relevance Check function
 # ======================
 
 client = OpenAI(
@@ -25,9 +25,56 @@ client = OpenAI(
     base_url="http://localhost:8011/v1" #remove this line
 )
 
+def check_image_relevance_with_base64(base64_image):
+    """Check if an image is relevant for educational/academic content."""
+    print("Checking image relevance...")
+    response = client.chat.completions.create(
+        model="Qwen/Qwen2.5-VL-32B-Instruct-AWQ",#remove this line
+        messages=[
+            {
+                "role": "system",
+                "content": (
+                    "You are an assistant that determines if images are relevant for educational or academic content. "
+                    "An image is considered RELEVANT if it contains: diagrams, charts, graphs, mathematical equations, "
+                    "scientific illustrations, technical drawings, maps, educational figures, tables with data, "
+                    "or any content that supports learning or understanding of academic material.\n\n"
+                    "An image is considered NOT RELEVANT if it contains: decorative elements, logos, headers/footers, "
+                    "page numbers, blank spaces, advertisements, random photos, or any content that doesn't contribute "
+                    "to educational understanding.\n\n"
+                    "Respond with ONLY 'RELEVANT' or 'NOT_RELEVANT' - no other text."
+                )
+            },
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "Is this image relevant for educational/academic content? Answer only 'RELEVANT' or 'NOT_RELEVANT'."
+                    },
+                    {
+                        "type": "image_url",
+                        "image_url": {
+                            "url": f"data:image/png;base64,{base64_image}"
+                        }
+                    }
+                ]
+            }
+        ],
+        max_tokens=10  # We only need a short response
+    )
+    
+    result = response.choices[0].message.content.strip().upper()
+    is_relevant = result == "RELEVANT"
+    print(f"Image relevance check result: {result} -> {is_relevant}")
+    return is_relevant
+
+# ======================
+# Image Descriptor function
+# ======================
+
 def describe_educational_image_with_base64(base64_image):
     """Describe an image given its base64 encoding using the correct LLM structure."""
-    print("called llm for description")#remove this
+    print("Getting image description...")
     response = client.chat.completions.create(
         # model=os.getenv("IMAGE_VLLM_MODEL_NAME"),
         model="Qwen/Qwen2.5-VL-32B-Instruct-AWQ",#remove this line
@@ -66,15 +113,55 @@ def describe_educational_image_with_base64(base64_image):
     return response.choices[0].message.content
 
 # ======================
-# Image Extractor function
+# Image Saving function
 # ======================
 
-def extract_image_descriptions_from_page(page):
-    """Extracts images from the page and gets descriptions using the correct LLM calling structure."""
-    print("inside extract_image_description_from_page")
+def save_image_to_folder(image_bytes, pdf_name, img_index, output_dir):
+    """Save image to the images folder with proper naming convention."""
+    try:
+        # Create images folder inside the output directory
+        images_folder = os.path.join(output_dir, "images")
+        os.makedirs(images_folder, exist_ok=True)
+        
+        # Clean PDF name (remove extension and any path components)
+        clean_pdf_name = os.path.splitext(os.path.basename(pdf_name))[0]
+        
+        # Create filename: pdf_name_image_1.png, pdf_name_image_2.png, etc.
+        image_filename = f"{clean_pdf_name}_image_{img_index + 1}.png"
+        image_path = os.path.join(images_folder, image_filename)
+        
+        # Convert to PIL Image and save
+        image = Image.open(BytesIO(image_bytes))
+        image.save(image_path, format="PNG")
+        
+        print(f"Saved image: {image_path}")
+        return image_path
+        
+    except Exception as e:
+        print(f"Error saving image {img_index}: {str(e)}")
+        return None
+
+# ======================
+# Image Extractor function (Modified with 2-step process)
+# ======================
+
+def extract_image_descriptions_from_page(page, pdf_name=None, output_dir=None):
+    """Extracts images from the page, checks relevance, saves relevant ones, and gets descriptions using the 2-step process."""
+    print("Inside extract_image_description_from_page")
     images = list(page.get_images(full=True))
     total_images = len(images)
     image_descriptions = []
+    relevant_image_count = 0
+    
+    print(f"Total images found: {total_images}")
+    
+    # Only save images if output_dir is provided
+    if output_dir is not None:
+        save_images = True
+        if pdf_name is None:
+            pdf_name = "unknown_pdf"  # fallback only if output_dir is provided
+    else:
+        save_images = False
     
     for img_index, img in enumerate(images):
         try:
@@ -83,52 +170,80 @@ def extract_image_descriptions_from_page(page):
             image_bytes = base_image["image"]
             image_ext = base_image["ext"]
             
+            # Process for relevance check
             # Convert to PIL Image
             image = Image.open(BytesIO(image_bytes))
             
             # Encode image to base64
             buffered = BytesIO()
-            # Convert to PNG format for consistency (since the LLM expects PNG in the data URL)
+            # Convert to PNG format for consistency
             image.save(buffered, format="PNG")
             img_base64 = base64.b64encode(buffered.getvalue()).decode("utf-8")
             
-            # Call LLM using the correct structure
-            description = describe_educational_image_with_base64(img_base64)
+            # STEP 1: Check if image is relevant
+            print(f"Processing image {img_index + 1}/{total_images}")
+            is_relevant = check_image_relevance_with_base64(img_base64)
             
-            # Format description based on number of images
-            if total_images > 1:
-                formatted_description = f"Image {img_index + 1}: {description}"
+            if is_relevant:
+                relevant_image_count += 1
+                print(f"Image {img_index + 1} is RELEVANT - proceeding with description")
+                
+                # Save the image if output directory is provided (only for relevant images)
+                saved_image_path = None
+                if save_images:
+                    saved_image_path = save_image_to_folder(image_bytes, pdf_name, relevant_image_count - 1, output_dir)
+                
+                # STEP 2: Get description for relevant image
+                description = describe_educational_image_with_base64(img_base64)
+                
+                # Format description based on number of relevant images
+                if relevant_image_count > 1:
+                    formatted_description = f"Image {relevant_image_count}: {description}"
+                else:
+                    formatted_description = f"Image description: {description}"
+                
+                image_descriptions.append(formatted_description)
+                
             else:
-                formatted_description = f"Image description: {description}"
-            
-            image_descriptions.append(formatted_description)
-            
+                print(f"Image {img_index + 1} is NOT RELEVANT - skipping")
+                # We don't save or describe irrelevant images
+                continue
+                
         except Exception as e:
-            print(f"Error processing image {img_index}: {str(e)}")
-            if total_images > 1:
-                image_descriptions.append(f"Image {img_index + 1}: [Image processing failed]")
-            else:
-                image_descriptions.append("Image description: [Image processing failed]")
+            print(f"Error processing image {img_index + 1}: {str(e)}")
+            # Only add error message for what would have been a relevant image
+            # Since we can't check relevance due to error, we'll skip it
+            continue
     
+    print(f"Found {relevant_image_count} relevant images out of {total_images} total images")
     return image_descriptions
 
 # ======================
-# PDF Reader function
+# PDF Reader function (Modified)
 # ======================
 
-def extract_from_pdf(pdf_path: str) -> str:
+def extract_from_pdf(pdf_path: str, output_dir: str = None) -> str:
     """Extracts text and image descriptions from a single PDF."""
     text_extract = ""
-    print("inside extract_from_pdf")#remove this
+    print("Inside extract_from_pdf")
+    
+    # Get PDF name for image naming
+    pdf_name = os.path.basename(pdf_path)
+    
     try:
         with fitz.open(pdf_path) as doc:
             for page_num, page in enumerate(doc):
                 # Extract text from page
-                print("extracting text")
+                print(f"Extracting text from page {page_num + 1}")
                 text = page.get_text()
                 
-                # Extract image descriptions
-                image_descriptions = extract_image_descriptions_from_page(page)
+                # Extract image descriptions (now with relevance checking and image saving)
+                # Pass the output_dir so images get saved in the main folder's 'images' subfolder
+                image_descriptions = extract_image_descriptions_from_page(
+                    page, 
+                    pdf_name=pdf_name, 
+                    output_dir=output_dir
+                )
                 
                 # Prepend image descriptions (if any) to text
                 if image_descriptions:

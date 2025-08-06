@@ -311,7 +311,10 @@ def process_all_pdfs_with_verification(model="ibnzterrell/Meta-Llama-3.3-70B-Ins
     for out_file in all_valid_pdfs:
         print(f"  - {out_file}")
         try:
-            extracted_text = extract_from_pdf(out_file)
+            pdf_output_dir = os.path.dirname(out_file)
+        
+            # Extract text with proper output directory context
+            extracted_text = extract_from_pdf(out_file, output_dir=pdf_output_dir)
             all_extracted_questions += extracted_text + "\n\n"
         except Exception as e:
             print(f"Error extracting from {out_file}: {e}")

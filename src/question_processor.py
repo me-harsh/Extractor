@@ -4,6 +4,7 @@ from src.pdf_processing import load_pdf_with_fitz
 from src.pattern_extractor import EnhancedPatternExtractor
 from src.llm_client import LocalLLMClient
 from src.verification import verify_and_process_output_directory
+from src.connection import extract_from_pdf
 import fitz  # PyMuPDF      
 
 
@@ -237,27 +238,27 @@ def extract_questions_as_multipage_pdfs(pdf_path, model="gemma3:4b", base_url="h
 
 
 def process_all_pdfs_with_verification(model="ibnzterrell/Meta-Llama-3.3-70B-Instruct-AWQ-INT4", 
-                                     base_url="http://localhost:8012/v1"):
+                                       base_url="http://localhost:8012/v1"):
     """Process all PDFs in test_files and automatically verify/split results"""
     print("STEP 1: Processing all PDFs in test_files directory")
     print("=" * 70)
     
-    # Process all PDFs (reuse existing function)
+    # Step 1: Create the output PDFs
     process_all_pdfs_in_test_files(model, base_url)
     
     print(f"\nSTEP 2: Auto-verifying all recent output directories")
     print("=" * 70)
     
-    # Find and verify all recent output directories
     base_output_dir = "output"
     if not os.path.exists(base_output_dir):
         print(f"No output directory found: {base_output_dir}")
-        return
+        return ""
     
-    # Find all extraction directories created today
-    extraction_dirs = []
+    # Get today's date string
     today = datetime.now().strftime("%Y%m%d")
     
+    # Collect recent output directories
+    extraction_dirs = []
     for item in os.listdir(base_output_dir):
         item_path = os.path.join(base_output_dir, item)
         if (os.path.isdir(item_path) and 
@@ -267,12 +268,14 @@ def process_all_pdfs_with_verification(model="ibnzterrell/Meta-Llama-3.3-70B-Ins
     
     if not extraction_dirs:
         print(f"No recent extraction directories found in {base_output_dir}")
-        return
+        return ""
     
     print(f"Found {len(extraction_dirs)} recent output directories to verify")
     
-    # Verify each directory
+    # Step 3: Run verification and collect all valid PDFs
     all_results = []
+    all_valid_pdfs = []
+    
     for i, output_dir in enumerate(extraction_dirs, 1):
         print(f"\n[{i}/{len(extraction_dirs)}] Verifying: {os.path.basename(output_dir)}")
         print("-" * 50)
@@ -282,8 +285,12 @@ def process_all_pdfs_with_verification(model="ibnzterrell/Meta-Llama-3.3-70B-Ins
             'directory': output_dir,
             'results': results
         })
-    
-    # Final summary
+        
+        # Collect valid PDFs from this verification result
+        if results and 'valid_files' in results:
+            all_valid_pdfs.extend(results['valid_files'])
+
+    # Step 4: Print summary
     print(f"\n{'='*70}")
     print("FINAL VERIFICATION SUMMARY")
     print(f"{'='*70}")
@@ -296,8 +303,20 @@ def process_all_pdfs_with_verification(model="ibnzterrell/Meta-Llama-3.3-70B-Ins
     print(f"Total valid questions: {total_valid}")
     print(f"Total files from splitting: {total_split}")
     print(f"Total dirt files: {total_dirt}")
+
+    # Step 5: Extract text from valid PDFs
+    all_extracted_questions = ""
+    print(f"\nExtracting text from {len(all_valid_pdfs)} valid PDF files...")
     
-    return all_results
+    for out_file in all_valid_pdfs:
+        print(f"  - {out_file}")
+        try:
+            extracted_text = extract_from_pdf(out_file)
+            all_extracted_questions += extracted_text + "\n\n"
+        except Exception as e:
+            print(f"Error extracting from {out_file}: {e}")
+    
+    return all_extracted_questions
 
 def process_all_pdfs_in_test_files(model="ibnzterrell/Meta-Llama-3.3-70B-Instruct-AWQ-INT4", 
                                  base_url="http://localhost:9091/v1"):
